@@ -29,7 +29,7 @@ if not license_key:
 # 下载 URL
 url = (
     "https://download.maxmind.com/app/geoip_download"
-    f"?edition_id=GeoIP2-ASN&license_key={license_key}&suffix=tar.gz"
+    f"?edition_id=GeoLite2-ASN&license_key={license_key}&suffix=tar.gz"
 )
 
 tar_path = "GeoIP2-ASN.tar.gz"
