@@ -3,21 +3,21 @@
   <img src="https://raw.githubusercontent.com/Thoseyearsbrian/Aegis/main/assets/Aegis_Cover_Image.png" alt="Aegis Cover Image"/>
 </p>
 
-<h1 align="center">GeoIP2-ASN: Auto Build and Update Solution</h1>
+<h1 align="center">GeoLite2-ASN: Auto Build and Update Solution</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0" />
-  <img src="https://github.com/Thoseyearsbrian/GeoIP2-ASN/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
-  <img src="https://img.shields.io/github/stars/Thoseyearsbrian/GeoIP2-ASN?style=social" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/GeoIP2-ASN?include_prereleases&label=version" alt="Version" />
-  <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/GeoIP2-ASN" alt="Last Commit" />
-  <a href="https://github.com/Thoseyearsbrian/GeoIP2-ASN">
+  <img src="https://github.com/Thoseyearsbrian/GeoLite2-ASN/actions/workflows/update.yml/badge.svg" alt="GeoIP Auto Update Status" />
+  <img src="https://img.shields.io/github/stars/Thoseyearsbrian/GeoLite2-ASN?style=social" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/v/release/Thoseyearsbrian/GeoLite2-ASN?include_prereleases&label=version" alt="Version" />
+  <img src="https://img.shields.io/github/last-commit/Thoseyearsbrian/GeoLite2-ASN" alt="Last Commit" />
+  <a href="https://github.com/Thoseyearsbrian/GeoLite2-ASN">
     <img src="https://img.shields.io/badge/Mirror--Prohibited-red" alt="Mirror Prohibited" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Thoseyearsbrian/GeoIP2-ASN/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
+  <a href="https://github.com/Thoseyearsbrian/GeoLite2-ASN/blob/main/Docs/zh-CN/README.md"><b>【中文文档点此进入】</b></a>
 </p>
 
 ## **Overview**
@@ -49,7 +49,7 @@ This project utilizes GitHub Actions for scheduled updates, pulling the latest d
 
 | **Filename** | **Build Output Path (for reference only)**                   | **Example Usage**                                        |
 | ------------ | ------------------------------------------------------------ | -------------------------------------------------------- |
-| GeoIP2-ASN.mmdb | [`data/GeoIP2-ASN.mmdb`](https://raw.githubusercontent.com/Thoseyearsbrian/GeoIP2-ASN/main/data/GeoIP2-ASN.mmdb) | For IP-ASN matching in Surge, Clash, Quantumult X to identify network ownership (e.g., cloud or telecom). |
+| GeoLite2-ASN.mmdb | [`data/GeoLite2-ASN.mmdb`](https://raw.githubusercontent.com/Thoseyearsbrian/GeoLite2-ASN/main/data/GeoLite2-ASN.mmdb) | For IP-ASN matching in Surge, Clash, Quantumult X to identify network ownership (e.g., cloud or telecom). |
 
 ## **Configuration Guide**
 
@@ -71,7 +71,7 @@ This project requires access to the official MaxMind GeoLite2 database. To enabl
 Copy the file URL → Open Surge → Go to General → GeoIP Database → Remove previous configuration (if any) → Paste the new URL → Update Now → Apply → Done!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/GeoIP2-ASN/main/Icons/Groups/surge-geoip-config-guide-step-by-step-en.png" width="600">
+  <img src="https://raw.githubusercontent.com/Thoseyearsbrian/GeoLite2-ASN/main/Icons/Groups/surge-geoip-config-guide-step-by-step-en.png" width="600">
 </p>
 
 ## **⚠️ Important Notes**
@@ -114,4 +114,4 @@ This project is **intended for developers with a technical background and awaren
 
 - This project uses GitHub Actions to automatically pull data from MaxMind. **You must register on MaxMind and obtain your own License Key** to run the build script or automation legally.
 - GeoLite2 data is copyrighted by [MaxMind, Inc.](https://www.maxmind.com/) and is licensed under the [GeoLite2 EULA](https://www.maxmind.com/en/geolite2/eula).
-- All scripts and configuration files in this project are licensed under the [Apache License 2.0](https://raw.githubusercontent.com/Thoseyearsbrian/GeoIP2-ASN/main/LICENSE).
+- All scripts and configuration files in this project are licensed under the [Apache License 2.0](https://raw.githubusercontent.com/Thoseyearsbrian/GeoLite2-ASN/main/LICENSE).
