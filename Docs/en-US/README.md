@@ -115,3 +115,11 @@ This project is **intended for developers with a technical background and awaren
 - This project uses GitHub Actions to automatically pull data from MaxMind. **You must register on MaxMind and obtain your own License Key** to run the build script or automation legally.
 - GeoLite2 data is copyrighted by [MaxMind, Inc.](https://www.maxmind.com/) and is licensed under the [GeoLite2 EULA](https://www.maxmind.com/en/geolite2/eula).
 - All scripts and configuration files in this project are licensed under the [Apache License 2.0](https://raw.githubusercontent.com/Thoseyearsbrian/GeoLite2-ASN/main/LICENSE).
+
+## 🙌 Community Support
+
+If you find this project valuable, feel free to Star ⭐️ it. All rule updates are announced through our [Telegram](https://telegram.org) channels — you're welcome to subscribe and stay informed:
+
+**Telegram Release Channel** - <a href="https://t.me/aegisupdates" target="_blank">Aegis Updates</a> : Publishes the latest rule versions, changelogs, and important announcements  
+
+**Telegram Community Group** - <a href="https://t.me/aegisdiscussion" target="_blank">Aegis Discussion</a> : Share suggestions, report false positives, and participate in collaborative rule development
