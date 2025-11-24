@@ -33,7 +33,7 @@ url = (
 )
 
 tar_path = "GeoLite2-ASN.tar.gz"
-output_dir = "release"
+output_dir = "data"
 
 print("开始从 MaxMind 下载 GeoLite2-ASN 数据库...")
 print(f"下载地址: {url}")
